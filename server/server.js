@@ -25,10 +25,6 @@ app.post('/api/messages', messages.addMessage);
 app.put('/api/messages/:id', messages.updateMessage);
 app.delete('/api/messages/:id', messages.deleteMessage);
 
-app.get('/partials/:name', function(req, res) {
-    res.sendfile(config.webRoot + '/partials/' + req.params.name);
-});
-
 // all other requests are redirected to our index.html file
 
 app.get('*', function(req, res) {

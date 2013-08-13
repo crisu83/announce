@@ -11,7 +11,7 @@ angular.module('AnnounceApp', ['ui.compat', 'restangular'])
         $stateProvider
             .state('home', {
                 url: '/home',
-                templateUrl: 'partials/home.html',
+                templateUrl: 'static/partials/home.html',
                 controller: 'HomeCtrl'
             });
     }]);
