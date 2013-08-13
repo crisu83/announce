@@ -1,0 +1,30 @@
+{
+    "name": "announce-client",
+    "description": "Client application for announce app.",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Christoffer Niska <christoffer.niska@gmail.com>",
+    "contributors": [
+        {
+            "name": "Christoffer Niska",
+            "email": "christoffer.niska@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Crisu83/announce.git"
+    },
+    "keywords": [
+        "application"
+    ],
+    "license": "New BSD License",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-closure-compiler": "~0.0.19",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-connect": "~0.3.0",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-contrib-less": "~0.6.4",
+        "grunt-contrib-watch": "~0.5.1"
+    }
+}

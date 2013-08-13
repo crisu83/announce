@@ -1,0 +1,12 @@
+<div class="home-ctrl">
+    <h1>Hello there!</h1>
+
+    <p>This is the home page and here are our current messages:</p>
+
+    <ul class="messages">
+        <li class="message" ng-repeat="message in messages">
+            <h3>{{ message.subject }}</h3>
+            <p>{{ message.body }}</p>
+        </li>
+    </ul>
+</div>
