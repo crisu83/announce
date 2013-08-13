@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('AnnounceApp', ['ui.compat', 'restangular'])
+angular.module('App', ['ui.compat', 'restangular'])
     .config(['$locationProvider', '$stateProvider', '$urlRouterProvider', 'RestangularProvider', function($locationProvider, $stateProvider, $urlRouterProvider, RestangularProvider) {
         RestangularProvider.setBaseUrl('/api');
         // enable html5 mode to get rid of the hash in the url

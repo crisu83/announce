@@ -1,3 +1,3 @@
-angular.module('AnnounceApp').controller('AppCtrl', ['$scope', function($scope) {
+angular.module('App').controller('AppCtrl', ['$scope', function($scope) {
 
 }]);
